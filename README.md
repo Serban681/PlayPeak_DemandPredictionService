@@ -23,12 +23,22 @@ To make future predictions, the output data is reused as input at the data seque
 
 The figure below shows the model’s outputs compared to the test data. As can be seen, the prediction system tends to generalize slightly more, with a test error of 0.0067. However, the model provides sufficiently accurate predictions for the user to observe the general trends.
 
+For training, I use the "Adam" optimizer, as it is a standard choice for time series analysis with transformers. I also use the mean squared error loss function, as it is a common option for regression tasks and penalizes large errors more strongly.
+
 ![image](https://github.com/user-attachments/assets/d35ca2c1-ab5d-4b14-9c94-4c8558f592fa)
 
 
 </details>
 
+<details>
 
+<summary>Service Internatl Architecture</summary>
+
+## Service Internal Architecture
+
+
+
+</details>
 
 <details>
 
