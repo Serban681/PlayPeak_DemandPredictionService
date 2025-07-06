@@ -19,6 +19,8 @@ To make future predictions, the output data is reused as input at the data seque
 
 ## Training the Model
 
+The figure below shows the model’s outputs compared to the test data. As can be seen, the prediction system tends to generalize slightly more, with a test error of 0.0067. However, the model provides sufficiently accurate predictions for the user to observe the general trends.
+
 ![image](https://github.com/user-attachments/assets/d35ca2c1-ab5d-4b14-9c94-4c8558f592fa)
 
 
