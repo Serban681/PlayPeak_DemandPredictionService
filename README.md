@@ -32,11 +32,13 @@ For training, I use the "Adam" optimizer, as it is a standard choice for time se
 
 <details>
 
-<summary>Service Internatl Architecture</summary>
+<summary>Service Internal Architecture</summary>
 
 ## Service Internal Architecture
 
+From the received data, only the information relevant for extraction is retained. After the relevant information is extracted, the data is transformed into inputs that can be understood by the neural network-based model. Once the model performs inference on the data, the results are reversed so they can be understood by the user. Finally, the data is structured and sent to the intermediary server as a successful response.
 
+![image](https://github.com/user-attachments/assets/e2a495bb-5449-4f6f-87ec-72177b302e16)
 
 </details>
 
