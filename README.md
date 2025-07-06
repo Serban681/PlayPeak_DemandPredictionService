@@ -8,6 +8,7 @@
 <summary>Model Architecture and Design</summary>
 
 <br>
+
 The script I am describing can be found here: [Model Creation Script](./model_creation.ipynb)
 
 ## Model Architecture
