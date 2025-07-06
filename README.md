@@ -7,6 +7,8 @@
 
 <summary>Model Architecture and Design</summary>
 
+The script I am describing can be found here: [Model Creation Script](./model_creation.ipynb)
+
 ## Model Architecture
 
 The goal is to process a data sequence and identify repetitive patterns within that sequence in order to make future predictions. The data sequence refers to the values I aim to detect as recurring, while the supplementary data indicates when these values repeat. Specifically, the data in the sequence represents the number of orders placed on a given date and the number of users registered on that date, while the supplementary data includes the day and the month. As shown in the figure below, I used a transformer-based architecture to take advantage of its attention mechanism, and applied the ReLU activation function to the supplementary data through fully connected layers. In the end, the two outputs are concatenated, followed by a final fully connected layer with ReLU functions.
